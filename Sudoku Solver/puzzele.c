@@ -2,22 +2,43 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+setuppuzzle(int **puzzle)
+{
+    Square ***sudoku;
+    int i, j;
+    sudoku = malloc(sizeof(Square**) * 9);
+    // loop through rows
+    for (i = 0; i < 9; i++) {
+        sudoku[i] = malloc(sizeof(Square*) * 9);
+    } // loop through columns
+        for (j = 0; j < 9; j++) {
+            sudoku[i][j] = malloc(sizeof(Square));
+            sudoku[i][j]->number = puzzle[i][j];
+            sudoku[i][j]->row = i;
+            sudoku[i][j]->column = j;
+            if (sudoku[i][j]->code != 0){
+                sudoku[i][j]->code = Posssible;
+            } else {
+                sudoku[i][j]->code = 0;
+            } 
+        }
+    }
 int ** creatpuzzle()
  {
     int **puzzle;
     int i, j;
     int arr[9][9] = 
-       {5, 3, 0,    0, 7, 0,     0, 0, 0,
-        6, 0, 0,    1, 9, 5,     0, 0, 0,
-        0, 9, 8,    0, 0, 0,     0, 6, 0,
+       {0, 1, 9,    0, 0, 2,     0, 0, 0,
+        4, 7, 0,    6, 9, 5,     0, 0, 1,
+        0, 0, 0,    4, 0, 0,     0, 9, 0,
         
-        8, 0, 0,    0, 6, 0,     0, 0, 3,
-        4, 0, 0,    8, 0, 3,     0, 0, 1,
-        7, 0, 0,    0, 2, 0,     0, 8, 0,
+        8, 0, 0,    5, 0, 7,     0, 0, 0,
+        0, 0, 0,    0, 0, 0,     0, 0, 0,
+        0, 0, 0,    2, 0, 1,     9, 5, 8,
        
-        0, 6, 0,    0, 0, 0,     2, 8, 0,
-        0, 0, 0,    4, 1, 9,     0, 0, 5,
-        0, 0, 0,    0, 8, 0,     0, 7, 9};
+        0, 6, 0,    0, 0, 6,     0, 0, 0,
+        6, 0, 0,    0, 2, 8,     0, 7, 9,
+        0, 0, 0,    1, 0, 0,     8, 6, 0};
  puzzle = malloc(sizeof(int*) * 9);
  for (i = 0; i < 9; i++)
  {
