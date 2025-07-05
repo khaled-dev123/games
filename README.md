@@ -1,7 +1,9 @@
 # 🎮 Games
 
-This repository contains a collection of simple games implemented in various programming languages. Each game is stored in its own folder with all the required source code and files to build and run it.
+This repository contains a collection of simple games implemented in various programming languages.  
+Each game is stored in its own folder with all the required source code and files to build and run it.
 
+---
 
 ## 🧠 Purpose
 
@@ -11,24 +13,31 @@ This repo is for:
 - Building small games and tools for learning
 - Sharing clean and simple examples of logic-based projects
 
+---
+
 ## 🛠️ Technologies
 
-Some of the languages used or planned:
+Languages used or planned:
 
 - ✅ C
-- ✅ python
+- ✅ Python
+
+---
 
 ## 🧭 Coming Soon
 
-- Tic-Tac-Toe 
-- Snake Game
+- 🔲 Tic-Tac-Toe  
+- 🔲 Snake Game
 
-##🚀 Done
+---
 
-- Sudoku Solver
-- Rock-Paper-Scissors
-- Guess the Number  
+## 🚀 Completed
 
+- ✅ Sudoku Solver  
+- ✅ Rock-Paper-Scissors  
+- ✅ Guess the Number  
+
+---
 
 ## 👨‍💻 Author
 
