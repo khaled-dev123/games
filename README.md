@@ -18,14 +18,17 @@ Some of the languages used or planned:
 - ✅ C
 - ✅ python
 
+## 🧭 Coming Soon
+
+- Tic-Tac-Toe 
+- Snake Game
+
+##🚀 Done
+
 - Sudoku Solver
 - Rock-Paper-Scissors
 - Guess the Number  
 
-## 🚀 Coming Soon
-
-- Tic-Tac-Toe 
-- Snake Game 
 
 ## 👨‍💻 Author
 
