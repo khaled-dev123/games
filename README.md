@@ -16,16 +16,16 @@ This repo is for:
 Some of the languages used or planned:
 
 - ✅ C
-- 
+- ✅ python
 
-- **Sudoku Solver** — A simple C program that solves 9x9 Sudoku puzzles using backtracking.
+- Sudoku Solver
+- Rock-Paper-Scissors
+- Guess the Number  
 
 ## 🚀 Coming Soon
 
-- Tic-Tac-Toe (Python)
-- Rock-Paper-Scissors (JavaScript)
-- Guess the Number (C++)
-- Snake Game (Python)
+- Tic-Tac-Toe 
+- Snake Game 
 
 ## 👨‍💻 Author
 
