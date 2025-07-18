@@ -26,8 +26,8 @@ Languages used or planned:
 
 ## 🧭 Coming Soon
 
-- 🔲 Tic-Tac-Toe  
-- 🔲 Snake Game
+- 🔲 Tic-Tac-Toe  (soon)
+- 🔲 Snake Game   (soon)
 
 ---
 
