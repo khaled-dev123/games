@@ -1,7 +1,7 @@
 # 🎮 Games
 
 This repository contains a collection of simple games implemented in various programming languages.  
-Each game is stored in its own folder with all the required source code and files to build and run it.
+Each game is stored in its own folder with all the required source code and files to build and run it
 
 ---
 
